@@ -1,0 +1,36 @@
+body {
+    max-width: 1440px;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    max-width: 50vh;
+    background-color: hsl(216, 50%, 16%);
+    font-family: 'Outfit', sans-serif;
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.image {
+    max-width: 50vh;
+    border-radius: 10px;
+}
+
+.info {  
+    display: flex;
+    justify-content: space-between;
+}
+.info .price {
+    color: hsl(178, 100%, 50%);
+}
+
+.info, .time, p {
+    color: hsl(215, 51%, 70%);
+}
+
+img {
+    max-width: 3vh;
+}
